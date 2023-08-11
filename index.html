@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Sketch</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id="Title">Etch a Sketch</h1>
+        <div class="content">
+            <div id="btn">
+                <button id="reset" class="btn">Reset</button>
+                <button id="black" class="btn">Black</button>
+                <button id="eraser" class="btn">Eraser</button>
+                <div id="color">
+                    <input type="color" id="colorInput" class="btn">
+                    <p>Choose Color</p>
+                </div>
+                <div id="slidePixel">
+                    <input type="range" min="1" max="128" id="slide" value = "16">
+                    <p id="value">16 x 16</p>
+                </div>
+            </div>
+            <div class="grid"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
