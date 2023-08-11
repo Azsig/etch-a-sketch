@@ -6,6 +6,10 @@ body{
     background-color: aliceblue;
 }
 
+#text{
+    font-size: 20px;
+}
+
 .content{
     display: flex;
     gap: 50px;
@@ -54,4 +58,25 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+footer{
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#gh-logo{
+    width: 25px;
+    height: 25px;
+    margin-bottom: -6px;
+    margin-right: 5px;
 }
